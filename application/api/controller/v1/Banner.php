@@ -6,11 +6,9 @@ use app\api\validate\IDMustBePostivelint;
 class Banner {
   //put your code here
   public function getBanner($id){
-    $data=[
-        'id'=>$id,
-    ];
-    $validate=new IDMustBePostivelint();
-    $a=$validate->batch()->check($data);
+
+    (new IDMustBePostivelint())->goCheck();
+    $a=$validate->goch;
     dump($a);
   }
 }

@@ -13,8 +13,8 @@ namespace app\api\validate;
  *
  * @author 36060
  */
-use think\Validate;
-class IDMustBePostivelint extends validate{
+
+class IDMustBePostivelint extends BaseValidate{
   //put your code here
   protected $rule=[
       'id'=>'require|isPostiveInterger'
@@ -24,7 +24,7 @@ class IDMustBePostivelint extends validate{
     if(preg_match('#^[1-9]\d?$#', $value)){
       return TRUE;
     }else{
-      return $field.'必须是正整数';
+      return FALSE;
     }
   }
 }
