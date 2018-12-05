@@ -25,8 +25,11 @@ class BaseValidate extends Validate {
     $params = Request::param();
     $result = $this->check($params);
     if (!$result) {
-      $error = $this->error;
-      throw new \Exception($error);
+      $e=new \app\lib\exception\ParameterException();
+      $e->msg= $this->error;
+      throw $e;
+//      $error = $this->error;
+//      throw new \Exception($error);
     } else {
       return true;
     }
