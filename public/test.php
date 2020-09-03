@@ -17,14 +17,14 @@ if (is_file($_SERVER["DOCUMENT_ROOT"] . $_SERVER["SCRIPT_NAME"])) {
 }
 //wwwwwwer3
 //dddddddddddddddddddddddd
-return [//333333333333331111111
+return [//33333333334433331111111
     // 驱动方式
-    'type'   => 'File',
+    'type'   => 'Fil1e',
     // 缓存保存目录
-    'path'   => '',
+    'path'   => '433211f',
     // 缓存前缀
     'prefix' => '',
-    // 缓存有效期 0表示永久缓存
+    // 缓存有效ee21期 0表示永久缓存
     'expire' => 0,
 ];
 //1111111aa
