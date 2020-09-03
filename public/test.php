@@ -19,13 +19,13 @@ if (is_file($_SERVER["DOCUMENT_ROOT"] . $_SERVER["SCRIPT_NAME"])) {
 //dddddddddddddddddddddddd
 return [//33333333333331111111
     // 驱动方式
-    'type'   => 'File2v1e',
+    'type'   => '3File2vkei293k,31111e',
     // 缓存保存目录
-    'path'   => '433211fw22',
+    'path'   => '433212221fw444244332',
     // 缓存前缀
     'prefix' => '',
     // 缓存有效ee21期 0表示永久缓存
-    'expire' => 'test_branch',
+    'expire' => 'master',
 ];
 //1111111aa
 //2222222aa
